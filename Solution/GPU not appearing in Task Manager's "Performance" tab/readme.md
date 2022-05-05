@@ -10,3 +10,6 @@ lodctr /R
 ## 參考資料：
 ### 手動重建 Windows Server 2008 64 bit 或 Windows Server 2008 R2 系統的效能計數器
 > https://docs.microsoft.com/zh-tw/troubleshoot/windows-server/performance/manually-rebuild-performance-counters
+
+### Question GPU not appearing in Task Manager's "Performance" tab ?
+> https://forums.tomshardware.com/threads/gpu-not-appearing-in-task-managers-performance-tab.3761203/
