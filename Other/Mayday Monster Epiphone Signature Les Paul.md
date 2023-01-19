@@ -1,3 +1,5 @@
+### [吉他測試影片](https://youtu.be/P89mrmrDRfo)
+
 ## 附贈配件-琴盒
 ![image](https://user-images.githubusercontent.com/55220866/213395452-bdb0ba68-7c1a-4f28-bdac-8372fe0a5161.png)
 
