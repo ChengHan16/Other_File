@@ -29,6 +29,7 @@ https://share.google/JZIFSVZozu3ZTb687 <br>
 https://maps.app.goo.gl/XnmoHDfB2ZJyQaaW9 <br>
 
 ◢ 店內座位照片 <br>
+＊此餐廳在美食街，所以並無店內位置
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgaz0Q2wUqZDhFchiWYDH1txm-C7B8tFdz8OrPM5D8VL0L5_Pj1L6FMMnon7n9gsbbw98Z4IAD_Ynb30v8_VnLMr056yYJ-S7-mTzIE5cCZdnIvym0kO6lXqFucG1MkifzSHJXoagpsRgM/s640/%25E6%2596%25B0%25E5%2585%25890926_6588.jpg" 
   title="店內位置" 
