@@ -14,7 +14,9 @@ https://share.google/JZIFSVZozu3ZTb687 <br>
 地址：台南市中西區西門路一段658號B2 <br>
 https://maps.app.goo.gl/XnmoHDfB2ZJyQaaW9 <br>
 
-
+### ◉ 喧宵いざかや
+地址：台南市中西區西門路一段706號 <br>
+https://decing.tw/tainan-noisyizakaya/ <br>
 ```
 
 ```
