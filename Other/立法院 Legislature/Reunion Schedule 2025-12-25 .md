@@ -6,6 +6,13 @@
 地址：700台灣臺南市中西區西華南街120巷18號 <br>
 https://share.google/C4ut0ftIAm3DMFrgt <br>
 
+◢ 店內座位照片 <br>
+
+<img src="https://scontent-nrt1-2.xx.fbcdn.net/v/t51.75761-15/467545012_17851781883338069_828795349932179209_n.jpg?stp=dst-jpegr_tt6&_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Bqhz658rXEIQ7kNvwHOOiMR&_nc_oc=AdkLneMDMgMKnRW1O6Xg6IJPALIaLPW9TcPvDan1YTFCdLgIXc5ojT_17N-6zwDywXw&_nc_zt=23&se=-1&_nc_ht=scontent-nrt1-2.xx&_nc_gid=wsFHrcCTOpKvPVF1_zvBkQ&oh=00_AfmK89O0aiF2gRgBXbujhsy8__2RYpcZaRa_CM2BHUF_9w&oe=69397F09" 
+  title="店內位置" 
+  width="500" 
+  height="800">
+
 ### ◉ 洋城義大利餐廳
 地址：717台灣臺南市仁德區中山路711號 <br>
 https://share.google/JZIFSVZozu3ZTb687 <br>
