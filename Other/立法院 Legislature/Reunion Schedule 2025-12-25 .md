@@ -17,6 +17,13 @@ https://maps.app.goo.gl/XnmoHDfB2ZJyQaaW9 <br>
 ### ◉ 喧宵いざかや
 地址：台南市中西區西門路一段706號 <br>
 https://decing.tw/tainan-noisyizakaya/ <br>
+
+◢ 店內座位照片 <br>
+
+<img src="https://decing.tw/wp-content/uploads/20201005225456_18.jpg" 
+  title="店內位置" 
+  width="500" 
+  height="300">
 ```
 
 ```
