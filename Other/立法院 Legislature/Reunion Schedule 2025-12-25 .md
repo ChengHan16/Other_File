@@ -5,6 +5,10 @@
 ### ◉ 路迷Lumi pasta&tea
 地址：700台灣臺南市中西區西華南街120巷18號 <br>
 https://share.google/C4ut0ftIAm3DMFrgt <br>
+
+### ◉ 洋城義大利餐廳
+地址： 717台灣臺南市仁德區中山路711號 <br>
+https://share.google/JZIFSVZozu3ZTb687 <br>
 ```
 
 ```
