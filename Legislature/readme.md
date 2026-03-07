@@ -19,3 +19,7 @@ git push
 <key>CFBundleShortVersionString</key>
 <string>1.0.2</string>
 ```
+### 執行 Capacitor 同步
+```
+npx cap sync ios
+```
