@@ -1,3 +1,5 @@
+$ cd my-app
+
 ### 執行 Capacitor 同步
 ```
 npx cap sync ios
