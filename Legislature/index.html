@@ -1,0 +1,93 @@
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth-compat.js"></script>
+
+<script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyACnoimIASfb1rb59SbgLDkUmyYR6ODbUU",
+        authDomain: "llwb-ed686.firebaseapp.com",
+        projectId: "llwb-ed686",
+        storageBucket: "llwb-ed686.firebasestorage.app",
+        messagingSenderId: "940345852074",
+        appId: "1:940345852074:web:7a30cca5a6d997a92350d3"
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    const auth = firebase.auth();
+    const loginWrapper = document.querySelector('.login-wrapper');
+    const msgEl = document.getElementById('msg');
+    let isNavigating = false;
+
+    function navigateToApp() {
+        if (isNavigating) return;
+        isNavigating = true;
+        msgEl.innerText = "登入成功！正在進入系統...";
+        msgEl.style.color = "#003153";
+        setTimeout(() => { 
+            // 【關鍵修正】：加上 ./ 讓 iOS 確實知道檔案在同一個資料夾
+            window.location.replace("./Messenger.html"); 
+        }, 300);
+    }
+
+    const fallbackTimer = setTimeout(() => { loginWrapper.classList.add("auth-resolved"); }, 3000);
+
+    auth.onAuthStateChanged((user) => {
+        clearTimeout(fallbackTimer); 
+        if (user) { navigateToApp(); } 
+        else { loginWrapper.classList.add("auth-resolved"); }
+    });
+
+    document.getElementById('loginBtn').addEventListener('click', () => {
+        const email = document.getElementById('email').value.trim();
+        const password = document.getElementById('password').value;
+
+        if (!email || !password) {
+            msgEl.innerText = "請完整填寫憑證資訊";
+            msgEl.style.color = "#a94442";
+            return;
+        }
+
+        const btn = document.getElementById('loginBtn');
+        btn.disabled = true;
+        btn.style.opacity = "0.7";
+
+        // 第一步：確認按鈕有反應
+        msgEl.innerText = "[1/3] 準備連線 (03.07-C)...";
+        msgEl.style.color = "#003153";
+
+        // 直接執行登入，看看是不是 setPersistence 在搞鬼
+        // 直接執行登入，看看是不是 setPersistence 在搞鬼
+        auth.signInWithEmailAndPassword(email, password)
+            .then(async (userCredential) => {
+                // 1. 從登入成功的憑證中取出 user 物件
+                const user = userCredential.user;
+                
+                // 2. 取得 Token (強烈建議使用 Firebase 官方標準的 getIdToken)
+                const token = await user.getIdToken(); 
+                
+                // 3. 寫入 localStorage
+                localStorage.setItem("token", token);
+                
+                // (選項) 如果你堅持使用你原本寫的 user.accessToken，可以改寫成這樣：
+                // localStorage.setItem("token", user.accessToken || user.stsTokenManager.accessToken);
+                
+                // 4. Token 存好之後，才執行跳轉
+                navigateToApp();
+            })
+            .catch((error) => {
+                // ... 下方的 catch 錯誤處理維持原樣 ...
+                msgEl.style.color = "#a94442";
+                msgEl.innerText = "失敗: " + error.code; 
+                btn.disabled = false;
+                btn.style.opacity = "1";
+                isNavigating = false; 
+            });
+
+        // 第二步：這行字如果有出來，代表請求已經發給 Google 了
+        // 如果畫面卡在這行字，100% 是被 iOS CORS (網域安全政策) 擋下！
+        setTimeout(() => {
+            if (!isNavigating && msgEl.innerText.includes("[1/3]")) {
+                msgEl.innerText = "[2/3] 請求已送出，等待 Google...";
+            }
+        }, 500);
+    });
+</script>
