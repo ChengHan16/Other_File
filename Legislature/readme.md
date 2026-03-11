@@ -1,5 +1,6 @@
 $ cd my-app
-
+### \my-app\ios\App\App
+```Info.plist``` Version change
 ### 執行 Capacitor 同步
 ```
 npx cap sync ios
