@@ -1,6 +1,12 @@
 $ cd my-app
 ### \my-app\ios\App\App
 ```Info.plist``` Version change
+```plist
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.530</string>
+	<key>CFBundleVersion</key>
+	<string>53</string>
+```
 ### 執行 Capacitor 同步
 ```
 npx cap sync ios
