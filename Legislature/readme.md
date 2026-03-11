@@ -32,4 +32,7 @@ git push
 <key>CFBundleShortVersionString</key>
 <string>1.0.2</string>
 ```
+https://appstoreconnect.apple.com/login
+https://developer.apple.com/
+https://ionic.io/login
 
