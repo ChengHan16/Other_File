@@ -39,3 +39,31 @@ https://appstoreconnect.apple.com/login <br>
 https://developer.apple.com/ <br>
 https://ionic.io/login <br>
 
+---
+### 1. 標準 Firebase 登出指令
+```
+auth.signOut().then(() => {
+  console.log("已成功登出");
+  window.location.replace("index.html");
+}).catch((error) => {
+  console.error("登出失敗:", error);
+});
+```
+### 2. 強制清除本地暫存（離線登出）
+```
+// 清除自訂的 Token 紀錄
+localStorage.removeItem("token");
+
+// 清除離線快取的個人資料（如大頭貼、名稱）
+localStorage.removeItem("localUserName");
+localStorage.removeItem("localUserAvatar");
+localStorage.removeItem("localUserTheme");
+
+// 強制跳回登入頁面
+window.location.replace("index.html");
+```
+### 3. 進階：清除所有本機資料（最徹底）
+```
+localStorage.clear();
+window.location.reload();
+```
