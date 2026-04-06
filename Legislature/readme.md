@@ -41,7 +41,7 @@ https://ionic.io/login <br>
 
 ---
 ### 1. 標準 Firebase 登出指令
-```
+``` console
 auth.signOut().then(() => {
   console.log("已成功登出");
   window.location.replace("index.html");
