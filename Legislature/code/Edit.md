@@ -1,4 +1,4 @@
-### 在 Messenger.html 網頁版加上建立時間 <br> 為了讓網頁版也能同步看到建立時間，請在 Messenger.html 裡面找到 async function openGroupBuyDetail(orderId) 這個函式，然後將解析與渲染資料的部份替換如下：
+### 在 Messenger.html 網頁版加上建立時間，為了讓網頁版也能同步看到建立時間 <br> 請在 Messenger.html 裡面找到 async function openGroupBuyDetail(orderId) <br>  這個函式，然後將解析與渲染資料的部份替換如下：
 
 找到這段程式碼：
 
