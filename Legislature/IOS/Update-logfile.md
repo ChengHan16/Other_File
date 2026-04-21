@@ -1,3 +1,25 @@
+### Interfacs
+⚫︎ 首頁
+
+&emsp;&ensp;抽卡
+
+⚫︎ 聊天
+
+⚫︎ 關於我
+&emsp;&ensp;帳號設定
+&emsp;&ensp;&emsp;&ensp;變更圖片
+&emsp;&ensp;&emsp;&ensp;變更信箱
+&emsp;&ensp;&emsp;&ensp;變更密碼
+&emsp;&ensp;變更外觀
+
+⚫︎ 日曆
+
+⚫︎ 其他
+&emsp;&ensp;語言切換
+&emsp;&ensp;啟用密碼鎖
+&emsp;&ensp;功能說明
+&emsp;&ensp;更新日誌
+
 ```
 以上是全部的檔案了。Messenger.html 是我寫好的 html 版本，待會有任何程式邏輯或是內容都可以先參考 Messenger,html 再開始重寫。
 待會修改程式碼時不要擅自縮排，依照撰寫程式的方式就好。
@@ -37,26 +59,6 @@ Ver.3
 ```
 
 ```
-### Interfacs
-> ⚫︎ 首頁
->> 抽卡
-
-> ⚫︎ 聊天
-
-> ⚫︎ 關於我
->> 帳號設定
->>> 變更圖片
->>> 變更信箱
->>> 變更密碼
->> 變更外觀
-
-> ⚫︎ 日曆
-
-> ⚫︎ 其他
->> 語言切換
->> 啟用密碼鎖
->> 功能說明
->> 更新日誌
 
 
 
