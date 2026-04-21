@@ -7,6 +7,7 @@
 
 ⚫︎ 關於我 <br>
 &emsp;&ensp;帳號設定 <br>
+&emsp;&ensp;登入裝置 <br>
 &emsp;&ensp;&emsp;&ensp;變更圖片 <br>
 &emsp;&ensp;&emsp;&ensp;變更信箱 <br>
 &emsp;&ensp;&emsp;&ensp;變更密碼 <br>
