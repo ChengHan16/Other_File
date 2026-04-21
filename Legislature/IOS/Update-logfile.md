@@ -16,6 +16,7 @@
 ⚫︎ 日曆
 
 ⚫︎ 其他
+&emsp;&ensp;深色模式
 &emsp;&ensp;語言切換
 &emsp;&ensp;啟用密碼鎖
 &emsp;&ensp;功能說明
