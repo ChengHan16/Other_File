@@ -5,12 +5,12 @@
 
 ⚫︎ 聊天
 
-⚫︎ 關於我
-&emsp;&ensp;帳號設定
-&emsp;&ensp;&emsp;&ensp;變更圖片
-&emsp;&ensp;&emsp;&ensp;變更信箱
-&emsp;&ensp;&emsp;&ensp;變更密碼
-&emsp;&ensp;變更外觀
+⚫︎ 關於我 <br>
+&emsp;&ensp;帳號設定 <br>
+&emsp;&ensp;&emsp;&ensp;變更圖片 <br>
+&emsp;&ensp;&emsp;&ensp;變更信箱 <br>
+&emsp;&ensp;&emsp;&ensp;變更密碼 <br>
+&emsp;&ensp;變更外觀 <br>
 
 ⚫︎ 日曆
 
