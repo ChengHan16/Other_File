@@ -1,3 +1,10 @@
+update
+```
+PS D:\Firebase\Projects\Legislature> firebase deploy
+```
+```
+firebase deploy
+```
 ### cmd
 ```
 cd my-app
