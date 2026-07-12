@@ -29,8 +29,11 @@ echo 3. DeepSeek
 set /p choice=输入数字：
 
 if "%choice%"=="1" llama-server.exe -m "models\gemma-4-31b-jang-crack-Q4_K_M.gguf" -ngl 999
-if "%choice%"=="2" llama-server.exe -m "models\Qwen2.5-VL-7B-Instruct-Q4_K_M.gguf" --mmproj "models\mmproj-BF16.gguf" -ngl 999
+if "%choice%"=="2" llama-server.exe -m "models\gemma-4-31b-jang-crack-Q4_K_M.gguf" --mmproj "models\mmproj-F32.gguf" -ngl 999
 if "%choice%"=="3" llama-server.exe -m "models\deepseek.gguf" -ngl 999
 
 pause
+```
+```
+llama-server.exe -m "models\gemma-4-31b-jang-crack-Q4_K_M.gguf" --mmproj "models\mmproj-F32.gguf" -ngl 999
 ```
