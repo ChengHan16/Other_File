@@ -37,3 +37,6 @@ pause
 ```
 llama-server.exe -m "models\gemma-4-31b-jang-crack-Q4_K_M.gguf" --mmproj "models\mmproj-F32.gguf" -ngl 999
 ```
+```
+llama-server.exe -m "models\gemma-4-31b-jang-crack-Q4_K_M.gguf" --mmproj "models\mmproj-BF16.gguf" -ngl 999
+```
